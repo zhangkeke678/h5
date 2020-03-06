@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="amazeui.min.css">
+    <link rel="stylesheet" href="jquery.fullPage.css">
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="dg2.css">
+    <style type="text/css">
+        .fp-tableCell {
+            display: block;
+            text-align: center;
+        }
+        #fp-nav.right {
+            right: 5px;
+        }
+        *, :after, :before {
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+        label {
+            margin-bottom: 0;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .swiper-container2 image{height:450px;}
+        .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+        }
+        .swiper-slide{
+            background:transparent;
+        }
+        .pp-wrap{
+            display: table;
+            clear: both;
+            content: '';
+            width: 100%;
+        }
+        .pp{float: right;
+            width: 25%;
+            margin: 6%;}
+        #submit{background: #5892FA;
+            height: 45px;
+            line-height: 44px;
+            font-size: 15px;
+            width: 200px;
+            color:#fff;
+            margin-left: 20%;}
+    </style>
+</head>
+<body>
+<div id="fullPage">
+    <div class="section section1" style="background:#fff url('image/bg01.png') no-repeat bottom;background-size: 100% 100%">
+        <div class="wrap">
+            <div class="p1 font-title"><img src="image/title01.png"></div>
+            <div class="p2"><img src="image/p1-1.png"></div>
+            <div class="p3"><img src="image/p1-2.png"></div>
+        </div>
+    </div>
+
+<div class="section section2">
+    <div class="wrap">
+        <div class="p1 font-title"><img style="width:74%" src="image/title02.png"></div>
+        <div class="p2 p-slideInUp"><img src="image/p2-1.png"></div>
+    </div>
+</div>
+<div class="section section3">
+    <div class="wrap">
+        <div class="p1 font-title"><img style="width:74%" src="image/title03.png"></div>
+        <div class="p2 p-zoomIn"><img src="image/p3-1.png"></div>
+    </div>
+</div>
+<div class="section section4">
+    <div class="wrap">
+        <div class="p1 font-title"><img style="width:74%" src="image/title04.png"></div>
+        <div class="p2 p-slideInLeft"><img src="image/p4-1.png"></div>
+        <div class="p2 p-slideInRight"><img src="image/p4-2.png"></div>
+    </div>
+</div>
+<div class="section section5" style="background:#fff url('image/p5-1.png') no-repeat bottom;background-size: 100% 100%">
+    <div class="wrap">
+        <div class="p1 font-title"><img src="image/title05.png"></div>
+        <!--<div class="p2 p-zoomIn"><img src="image/p5-1.png"></div>-->
+    </div>
+</div>
+<div class="section s6">
+    <div class="wrap">
+        <div class="p1 font-title"><img style="width:74%" src="image/title06.png"></div>
+        <!-- Swiper -->
+        <div class="swiper-container1 p-zoomIn" style="width:100%;height:200px; margin-top: 20%;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/p601.png"></div>
+                <div class="swiper-slide"><img src="image/p602.png"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="p2 p-zoomIn"><img src="image/p6-1.png"></div>
+    </div>
+</div>
+<div class="section s7">
+    <div class="wrap">
+        <div class="p1 font-title"><img style="width:74%" src="image/title07.png"></div>
+        <!-- Swiper -->
+        <div class="swiper-container2 p-zoomIn" style="width:100%;height:400px;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/701.jpg"></div>
+                <div class="swiper-slide"><img src="image/702.jpg"></div>
+                <div class="swiper-slide"><img src="image/703.jpg"></div>
+                <div class="swiper-slide"><img src="image/704.jpg"></div>
+                <div class="swiper-slide"><img src="image/705.jpg"></div>
+                <div class="swiper-slide"><img src="image/706.jpg"></div>
+                <div class="swiper-slide"><img src="image/707.jpg"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+<div class="section s8">
+    <div class="wrap">
+        <div class="p1 font-title"><img style="width:74%" src="image/title08.png"></div>
+        <div style="width:80%;margin:0 auto;">
+            <div class="p2 p-zoomIn"><img src="image/p8-1.png"></div>
+            <div class="p2 p-slideInLeft"><img src="image/p8-2.png"></div>
+            <div class="p2 p-slideInRight"><img src="image/p8-3.png"></div>
+        </div>
+    </div>
+</div>
+<div class="section s9">
+    <div class="wrap">
+        <div class="p1 font-title"><img style="width:74%" src="image/title09.png"></div>
+        <!-- Swiper -->
+        <div class="swiper-container2 p-zoomIn" style="width:100%;height:400px;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/901.jpg"></div>
+                <div class="swiper-slide"><img src="image/902.jpg"></div>
+                <div class="swiper-slide"><img src="image/903.jpg"></div>
+                <div class="swiper-slide"><img src="image/904.jpg"></div>
+                <div class="swiper-slide"><img src="image/905.jpg"></div>
+                <div class="swiper-slide"><img src="image/906.jpg"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+<div class="section s10">
+    <div class="wrap">
+        <div class="p1 font-title"><img style="width:74%" src="image/title10.png"></div>
+        <!-- Swiper -->
+        <div class="swiper-container2 p-zoomIn" style="width:100%;height:400px;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/1001.jpg"></div>
+                <div class="swiper-slide"><img src="image/1002.jpg"></div>
+                <div class="swiper-slide"><img src="image/1003.jpg"></div>
+                <div class="swiper-slide"><img src="image/1004.jpg"></div>
+                <div class="swiper-slide"><img src="image/1005.jpg"></div>
+                <div class="swiper-slide"><img src="image/1006.jpg"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+<div class="section section7">
+        <div class="" style="width:80%;margin:10% auto 1%;">
+            <div class="p1 font-title"><img style="width:80%" src="image/title11.png"></div>
+            <div class="p2 p-zoomIn" style="position:relative;"><img src="image/p11-1.png"></div>
+            <div class="p2 p-zoomIn" style="position:relative;"><img src="image/p11-2.png"></div>
+            <div class="p2 p-zoomIn" style="position:relative;width: 50%;"><img src="image/p11-3.png"></div>
+        </div>
+    <div style="width:48%;margin:6% auto 0;">
+        <a href="" style="display: inline-block"><img src="image/btn.png" alt=""></a>
+    </div>
+    </div>
+<div class="section section6">
+    <div class="pp-wrap p-slideInUp">
+        <div class="pp p-swing" style="overflow: hidden"><img src="image/logo.png"></div>
+        <div class="p2  k-form" style="margin-top: 36%;">
+            <form class="form-kk" action="">
+                <div class="form-group">
+                    <label for="">姓名：</label>
+                    <input type="text">
+                </div>
+                <div class="form-group">
+                    <label for="">手机：</label>
+                    <input type="text">
+                </div>
+                <div class="form-group">
+                    <label for="">留言：</label>
+                    <textarea class="" rows="3"></textarea>
+                </div>
+                <div class="form-group" style="text-align: center;margin:5% 0 0 0">
+                    <div id="submit" class="am-round">提 &nbsp;&nbsp; 交</div>
+                </div>
+            </form>
+            <div class="thanks p-jackInTheBox" style="width: 65%;margin: 0 auto;display: none">
+                <img src="image/thanks.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+<!--model-->
+<div id="myModel" class="am-modal am-modal-no-btn" tabindex="-1">
+    <div class="am-modal-dialog" style="width:95%;">
+        <div class="am-modal-bd">
+
+        </div>
+    </div>
+</div>
+<img src="images/arrow.png" style="width:20px;height:15px;margin:0 auto; bottom:10px; left:0;right: 0;" id="array"
+     class="resize">
+<!-- Swiper JS -->
+<script src="jquery.min.js"></script>
+<script src="jquery.fullPage.js"></script>
+<script src="swiper.min.js"></script>
+<!--<script src="amazeui.min.js"></script>-->
+<script src="amazeui.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    $(function () {
+        $('#fullPage').fullpage({
+            'navigation': true,
+        });
+        var swiper1 = new Swiper('.swiper-container1', {
+            pagination: '.swiper-pagination',
+            loop: true,
+            autoplay:false,
+            speed: 300,
+        });
+        var swiper2 = new Swiper('.swiper-container2', {
+            pagination: '.swiper-pagination',
+            loop: true,
+            autoplay:true,
+            speed: 100,
+            slidesPerView:1.5,
+            spaceBetween:5,
+        });
+        $('#submit').click(function(){
+            $('.form-kk').css({display:'none'});
+            $('.thanks').css({display:'block'});
+        })
+    });
+</script>
+</body>
+</html>

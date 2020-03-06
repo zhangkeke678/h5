@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="year.css">
+    <style type="text/css">
+        
+    </style>
+</head>
+<body>
+<div>
+    <div id="btn" style="display: none;">
+        <audio id="audio-player" ref="audio" preload="preload" autoplay="autoplay" loop="loop">
+            <source src="{$smarty.const.webUrl}Public/static/music/digitalpark.mp3?v=1" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+    <!--开启页-->
+    <div id="firstPage">
+        <div class="firstS p-slideInUp" style="height:100%;">
+            <p class="f-top"><img src="img/p001.png"></p>
+            <div class="f-main">
+                <img class="img1  " src="img/p002.png">
+                <div class="description">
+                    <span class="item line2">张三三</span>
+                    <span class="item line2">产品经理</span>
+                    <span class="item line2">集团总部/研究中心/技术部</span>
+                </div>
+                <img id="open" class="img-open p-heartBeat" src="img/y-open.png">
+            </div>
+        </div>
+    </div>
+    <!--滑动页-->
+    <div id="fullPage" style="display: none">
+        <!--1-->
+        <div class="section">
+            <div class="wrap">
+                <div class="description p-fadeInDown">
+                    <p class="item">今年，颐高 <span class="big p-lightSpeedIn">22</span>岁啦</p>
+                    <div class="p-lightSpeedIn">
+                        <p class="btn-bg"><span class="font-dark">218</span><span>城市</span></p>
+                        <p class="btn-bg"><span class="font-dark">264</span><span>园区基地</span></p>
+                        <p class="btn-bg"><span class="font-dark">56,609</span><span>企业入驻</span></p>
+                    </div>
+                    <p class="item">在这2019年的一切收获，</p>
+                    <p class="item">因为您的加入而更加美好。</p>
+                    <p class="item"> 接下来，查看您这一年在颐高美好的身影</p>
+                </div>
+                <div class="img-bot p-fadeInUp"><img src="img/p201.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--2-->
+        <div class="section">
+            <div class="wrap">
+                <div class="description p-fadeInDown">
+                    <p class="item">hi， <span class="big p-lightSpeedIn">张xx</span></p>
+                    <p class="item">2019年是你加入颐高大家庭的第<span class="big p-lightSpeedIn">1</span>年</p>
+                    <p class="item">这一年，你出勤 <span class="big p-lightSpeedIn">300</span>天</p>
+                    <p class="item">迟到 <span class="big p-lightSpeedIn">10</span>次，9:00前打卡 <span class="big p-lightSpeedIn">20</span>次</p>
+                    <p class="item">加班 <span class="big p-lightSpeedIn">10</span>次，工作时间最长时长为 <p class="btn-bg p-lightSpeedIn"><span class="font-dark">12.24</span></p>小时</p>
+                    <p class="item">年度最佳劳模就是你啦~</p>
+                </div>
+                <div class="img-bot p-fadeInUp"><img src="img/p301.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--3-->
+        <div class="section">
+            <div class="wrap">
+                <div class="note p-fadeInDown">
+                    <div class="description">
+                        <p class="item line">还记得 <span class="btn-bg p-lightSpeedIn"><span class="font-dark">12.24</span></span> 这一天吗</p>
+                        <p class="item line">你工作奋斗到 <span class="big p-lightSpeedIn">23:09</span></p>
+                        <p class="item line">为自己的梦想在助力~</p>
+                        <p class="item line">颐高因为有你而感到欣慰~</p>
+                        <p class="item line">深夜中，你是那最靓的仔~</p>
+                    </div>
+                </div>
+
+                <div class="img-bot p-fadeInDown"><img src="img/p401.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--4-->
+        <div class="section">
+            <div class="wrap">
+                <div class="description p-fadeInDown">
+                    <p class="item">在这一年，</p>
+                    <p class="item">总共发出 <span class="big p-lightSpeedIn">620</span> 份电子名片</p>
+                    <p class="item">结识了更多的新朋友，</p>
+                    <p class="item">为自己的人脉打下夯实的基础。</p>
+                    <p class="item">你就是传说中那结缘四海八荒的第一人吗~</p>
+                </div>
+                <div class="img-bot p-fadeInUp"><img src="img/p501.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--5-->
+        <div class="section">
+            <div class="wrap">
+                <div class="description p-fadeInDown">
+                    <p class="item">2019年</p>
+                    <p class="item">总共提交  <span class="big p-lightSpeedIn">217</span> 份日志，<span class="big p-lightSpeedIn">80</span>份周报</p>
+                    <p class="item">收到 <span class="big p-lightSpeedIn">1488</span> 份日志</p>
+                    <p class="item">抄送给 <span class="big p-lightSpeedIn">330</span> 人，<span class="big p-lightSpeedIn">145</span> 人次阅读</p>
+                    <p class="item">最关注的的人是 <span class="big p-lightSpeedIn">王二麻子</span></p>
+                    <p class="item">每周都能遇见你的感觉真好~</p>
+                </div>
+                <div class="img-bot p-fadeInUp"><img src="img/p601.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--6-->
+        <div class="section">
+            <div class="wrap">
+                <div class="note p-fadeInDown">
+                    <div class="description">
+                        <p class="item line">这一年， </p>
+                        <p class="item line">处理了 <span class="big p-lightSpeedIn">217</span>流量</p>
+                        <p class="item line">平均处理时间 <span class="big p-lightSpeedIn">33</span>min</p>
+                        <p class="item line">流程处理效率超出 <span class="big p-lightSpeedIn">146</span>人</p>
+                        <p class="item line">你审批"同意"的样子真的很迷人~</p>
+                    </div>
+                </div>
+
+                <div class="img-bot p-fadeInDown"><img src="img/p701.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--7-->
+        <div class="section">
+            <div class="wrap">
+                <div class="description p-fadeInDown">
+                    <p class="item">这一年</p>
+                    <p class="item">一共发出了  <span class="big p-lightSpeedIn">17</span> 次邀请，邀约来访人数<span class="big ">58</span></p>
+                    <p class="item">接待了 <span class="big p-lightSpeedIn">45</span> 次来访，接待来访人数 <span class="big">152</span>人</p>
+                    <p class="item">迎来送往你最棒~</p>
+                </div>
+                <div class="img-bot p-fadeInUp"><img src="img/p801.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--8-->
+        <div class="section">
+            <div class="wrap">
+                <div class="description p-fadeInDown">
+                    <p class="item">这一年</p>
+                    <p class="item">一共招商地推了  <span class="big p-lightSpeedIn">52</span> 家，</p>
+                    <p class="item">其中  <span class="big p-lightSpeedIn">5</span> 月，地推企业最多，</p>
+                    <p class="item">招来最多的企业类型是<span class="big p-lightSpeedIn">互联网科技</span></p>
+                    <p class="item">放个大招都是爱你的形状~</p>
+                </div>
+                <div class="img-bot p-fadeInUp"><img src="img/p901.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--9-->
+        <div class="section">
+            <div class="wrap">
+                <div class="note note2 p-fadeInDown">
+                    <div class="description">
+                        <p class="item line">这一年， </p>
+                        <p class="item line">你总共参与 <span class="big p-lightSpeedIn">2</span>个项目</p>
+                        <p class="item line">其中 <span class="big p-lightSpeedIn">1</span>个为负责人，</p>
+                        <p class="item line">重任在肩，你我共进~</p>
+                    </div>
+                </div>
+
+                <div class="img-bot p-fadeInDown"><img src="img/p1001.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--10-->
+        <div class="section">
+            <div class="wrap">
+                <div class="description p-fadeInDown">
+                    <p class="item"><span class="big p-lightSpeedIn">2019</span>年，亿茂发生了一件里程碑事件。</p>
+                    <p class="item">亿茂在线商城在<span class="btn-bg p-lightSpeedIn"><span class="font-dark">01.03</span> </span>上线了</p>
+                    <p class="item"><span class="btn-bg p-lightSpeedIn"><span class="font-dark">01.06</span> </span>商城成交了第一笔订单</p>
+                    <p class="item">截止到2019年12月31日，</p>
+                    <p class="item">商城总共完成了 <span class="big p-lightSpeedIn">8480</span>单，</p>
+                    <p class="item">成交额为 <span class="big p-lightSpeedIn">267,540.92</span>元。</p>
+                    <p class="item"><span class="big p-lightSpeedIn">140,622</span>个商户进行注册</p>
+                    <p class="item">其中与 <span class="big p-lightSpeedIn">5,319</span>用户达成交易</p>
+                </div>
+                <div class="img-bot p-fadeInUp" style="bottom:2%;"><img src="img/p1101.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--11-->
+        <div class="section">
+            <div class="wrap">
+                <div class="description p-fadeInDown">
+                    <p class="item">在商城上线的<span class="big p-lightSpeedIn">363</span>天内，</p>
+                    <p class="item">（截止到2019.12.31）</p>
+                    <p class="item">你总共访问了 <span class="big p-lightSpeedIn">509</span>次</p>
+                    <p class="item">在8月1日下了第一单，金额为￥<span class="big">9000</span>，</p>
+                    <p class="item">这一单，让我们的故事从此开始~</p>
+                </div>
+                <div class="img-bot p-fadeInUp"><img src="img/p1201.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+        <!--12-->
+        <div class="section">
+            <div class="wrap">
+                <div class="user">
+                    <img class="user-logo p-fadeInDown" src="img/user.png">
+                    <p class="name big p-lightSpeedIn">张三三</p>
+                    <p class="p-fadeInLeft">一切都是最好的安排</p>
+                </div>
+                <div class="img-all-page p-fadeInUp"><img src="img/p1301.png"></div>
+                <p class="bottom p-swing"></p>
+            </div>
+        </div>
+
+
+
+
+
+        <img src="images/arrow.png" style="width:20px;height:15px;margin:0 auto; bottom:10px; left:0;right: 0;" id="array"
+             class="resize">
+    </div>
+
+
+</div>
+
+<!-- Swiper JS -->
+<script src="jquery.min.js"></script>
+<script src="jquery.fullPage.js"></script>
+<!--<script src="amazeui.min.js"></script>-->
+<!-- Initialize Swiper -->
+<script>
+    // method 自动播放
+    let isWeixin = () => {
+        let ua = window.navigator.userAgent.toLowerCase()
+        return;
+        /micromessenger/
+            .test(ua)
+    }
+    let audioPlayer = (id) => {
+        let audio = document.getElementById(id)
+        if (isWeixin()) {
+            document.addEventListener(
+                'WeixinJSBridgeReady', () => {
+                    audio.play()
+                }, false);
+
+            // 添加 getNetworkType 的判断原因, 请看问题分析2
+            if (typeof window.WeixinJSBridge ==
+                "object" &&
+                typeof window.WeixinJSBridge
+                    .invoke ==
+                "function"
+            ) {
+                window.
+                WeixinJSBridge
+                    .invoke(
+                        'getNetworkType', {}, () => {
+                            audio.play()
+                        })
+            }
+        } else {
+            audio.play();
+            let touchPlay = () => {
+                audio.play();
+                document.removeEventListener(
+                    'touchstart', touchPlay, false)
+            };
+            if (audio.paused) {
+                document.addEventListener(
+                    'touchstart', touchPlay, false)
+            }
+        }
+    }
+    // 使用
+    audioPlayer('audio-player');
+
+    var audio = document.getElementById("audio-player");
+    var btn = document.getElementById("btn");
+    var rotateVal = 0;
+
+    var InterVal; // 定时器
+    btn.onclick = function() { //点击按钮播放停止
+        if (audio.paused) { //判断当前的状态是否为暂停，若是则点击播放，否则暂停
+            audio.play();
+            // rotate ()
+            $("#btn").css("animation-play-state", "running")
+        } else {
+            audio.pause();
+            // clearInterval(InterVal)
+            $("#btn").css("animation-play-state", "paused")
+        }
+    };
+    $(function () {
+
+        $('#open').click(function(){
+            $('#fullPage,#btn').css('display','block');
+            $('#firstPage').css('display','none');
+            $('#fullPage').fullpage({
+                'navigation': true,
+            });
+        })
+
+    });
+</script>
+</body>
+</html>

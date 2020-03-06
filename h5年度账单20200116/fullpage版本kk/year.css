@@ -1,0 +1,392 @@
+body, html {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%; }
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 14px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; }
+
+p {
+    margin: 0;
+    padding: 0; }
+
+img {
+    width: auto;
+    max-width: 100%; }
+
+input[type=checkbox], input[type=radio] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    opacity: 0; }
+#btn {
+    width: 30px;
+    height: 30px;
+    background: url(img/mus01.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -ms-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 1100;
+    -webkit-animation: haha1 .8s linear infinite;
+}
+.section {
+    z-index: -100;
+    background: url("img/bg0.jpg") no-repeat bottom;
+    background-size: 100% 100%;
+    position: relative; }
+
+.p1.font-title {
+    width: 100%;
+    margin: 0 auto 13%; }
+
+.section1 .p2 {
+    width: 60%;
+    margin: auto; }
+
+.section2 .p2 {
+    width: 93%;
+    margin: 9% auto 0; }
+
+.section3 .p2, .section4 .p2, .section6 .p2, .section7 .p2 {
+    width: 93%;
+    margin: 9% auto 0; }
+
+.section5 .p2, .section06 .p2, .section07 .p2, .section08 .p2 {
+    width: 84%;
+    margin: 9% auto 0; }
+
+.section1 .p3 {
+    width: 80%;
+    margin: 8% auto 0; }
+
+.section1 {
+    position: relative;
+    height: 100vh; }
+
+p.bottom {
+    width: 50px;
+    height: 21px;
+    background: url(img/y-logo.png) no-repeat center 0;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    z-index: 1;
+    bottom: 13px;
+    margin-left: -25px; }
+
+.section .wrap {
+    height:100%;
+    /*padding-top: 12%;*/
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; }
+
+.section1 .wrap {
+    padding-top: 10%; }
+
+.section1.active .p2 {
+    animation: flip 2s linear;
+    -webkit-animation: flip 2s linear;
+    opacity: 1; }
+
+.section1.active .p3 {
+    animation: bounceInUp 4s linear;
+    -webkit-animation: bounceInUp 4s linear;
+    opacity: 1; }
+
+.section1.active .font-title {
+    animation: bounceInDown 2s linear;
+    -webkit-animation: bounceInDown 2s linear;
+    opacity: 1; }
+
+.active .font-title {
+    animation: bounceInDown 2s linear;
+    -webkit-animation: bounceInDown 2s linear;
+    opacity: 1; }
+
+@-webkit-keyframes haha1 {
+    0% {
+        -webkit-transform: rotate(0deg); }
+    25% {
+        -webkit-transform: rotate(90deg); }
+    50% {
+        -webkit-transform: rotate(180deg); }
+    75% {
+        -webkit-transform: rotate(270deg); }
+    100% {
+        -webkit-transform: rotate(360deg); } }
+.active .p-zoomIn {
+    opacity: 1;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation: zoomIn 1.5s linear;
+    -webkit-animation: zoomIn 1.5s linear; }
+
+.active .p-bounceIn {
+    opacity: 1;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation: bounceIn 2s linear;
+    -webkit-animation: bounceIn 2s linear; }
+
+.active .p-fadeInRight {
+    opacity: 1;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation: fadeInRight 1s linear;
+    -webkit-animation: fadeInRight 1s linear; }
+
+.active .p-fadeInLeft {
+    opacity: 1;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation: fadeInLeft 1s linear;
+    -webkit-animation: fadeInLeft 1s linear; }
+
+.active .p-fadeInUp {
+    opacity: 1;
+    animation: fadeInUp 1s linear;
+    -webkit-animation: fadeInUp 1s linear; }
+
+.active .p-fadeInDown {
+    opacity: 1;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation: fadeInDown 1.5s linear;
+    -webkit-animation: fadeInDown 1.5s linear; }
+
+.active .p-swing {
+    opacity: 1;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation: wobble 3s infinite;
+    -webkit-animation: wobble 3s infinite; }
+.active .p-bounceIn {
+    opacity: 1;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation: bounceIn 3s infinite;
+    -webkit-animation: bounceIn 3s infinite; }
+.active .p-heartBeat {
+    opacity: 1;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation: heartBeat 3s infinite;
+    -webkit-animation: heartBeat 3s infinite; }
+
+.active .p-jello {
+    opacity: 1;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation: jello 3s linear;
+    -webkit-animation: jello 3s linear; }
+
+.active .p-flipInX {
+    opacity: 1;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation: flipInX 3s linear;
+    -webkit-animation: flipInX 3s linear; }
+.active .p-lightSpeedIn{
+    opacity: 1;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation: lightSpeedIn 3s linear;
+    -webkit-animation: lightSpeedIn 3s linear; }
+
+.p-bottom {
+    position: absolute;
+    width: 60%;
+    margin: 0 auto;
+    left: 20%;
+    bottom: 4%; }
+
+.img-bot {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin: 0 auto;
+    bottom: 3%; }
+
+.section .padding-top-m {
+    padding-top: 20%; }
+
+.description {
+    padding-top:10%;
+    text-align: left;
+    width: 85%;
+    margin: 0 auto;
+    color: #FEEDE8; }
+.description .item {
+
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;}
+.description .line {
+    border-bottom: 1px solid #FD917D;
+    padding: 15px 0;
+    width: 80%;
+    margin: 0 auto; }
+.description .big {
+    font-size: 22px; }
+.description .btn-bg {
+    display: inline-block;
+    padding: 0px 5px;
+    border-radius: 4px;
+    height: 34px;
+    line-height: 34px;
+    background: rgba(255, 255, 255, 0.2);}
+.description .font-dark {
+    font-size: 21px;
+    font-weight: bold;
+    color: #8C0E08; }
+
+.note {
+    background: url("img/y-note.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 10px;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+.note2{
+    background: url("img/y-note2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    min-height:350px;
+}
+
+.note .description {
+    text-align: center;
+    padding:30px 0 10px;
+}
+.note.note2 .description{
+    padding-top:10px;
+}
+.note .description .line{
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+}
+
+.firstS {
+    background: url("img/bg0.jpg") no-repeat 0 0;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.f-top {
+    width: 76%;
+    margin: 12% auto 0;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation: flipInX 2s linear;
+    -webkit-animation: flipInX 2s linear; }
+
+.f-main {
+    position: relative;
+    height: 400px;
+    animation: fadeInUp 1.5s linear;
+    -webkit-animation: fadeInUp 1.5s linear; }
+.f-main .description {
+    text-align: left;
+    width: 60%;
+    margin: 6% auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #70250E;
+    font-weight: bolder;
+    position: absolute;
+    top: 4%;
+    left: 0;
+    right: 0; }
+.f-main .line2 {
+    border-bottom: 1px solid #FFA998;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;}
+.f-main .line2:first-child {
+    font-size: 32px; }
+.f-main .line2:nth-child(2) {
+    font-size: 16px; }
+.f-main .line2:nth-child(3) {
+    font-size: 14px; }
+.f-main .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 90%;
+    margin-left: 10%; }
+.f-main .img-open {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 25%;
+    z-index: 2;
+    left: 50%;
+    margin-left: -50px;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation: heartBeat 1.5s infinite;
+    -webkit-animation: heartBeat 1.5s infinite;
+}
+.user{
+    text-align: center;
+    margin-top:10%;
+}
+.user .user-logo{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.user .name{
+    font-size:24px;
+    margin-top:3px;
+}
+.user p{
+    font-size:16px;
+    margin-top:10px;
+}
+.img-all-page{
+    position: absolute;
+    bottom:10%;
+}
+@media only screen and (max-width: 320px) {
+    .section .wrap {
+        padding-top: 10%; }
+    .description .item{
+        font-size:14px;
+    }
+    .description .font-dark{
+        font-size:15px;
+    }
+    .description .btn-bg{
+        padding:4px 3px;
+        font-size:14px;
+    }
+    .description .big{font-size:20px;}
+}
+
+

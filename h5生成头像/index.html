@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="dg.css">
+    <style type="text/css">
+        *, :after, :before {
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+<div id="fullPage">
+    <div class="section section1 bg1" style="background:#fff url('imgs/bg101.png') no-repeat bottom;background-size: 100% 100%">
+        <div class="wrap">
+            <div class="p1 w70"><img class="p-bounceIn" src="imgs/bg102.png"></div>
+        </div>
+    </div>
+
+<div class="section bg2">
+    <div class="wrap">
+        <div class="p1 font-title">
+            <img style="width:65%" src="imgs/bg203.png">
+        </div>
+        <div class="p3"><img class="p-fadeInUp" src="imgs/bg202.png"></div>
+    </div>
+</div>
+<div class="section bg3">
+    <div class="wrap">
+        <div class="p1 font-title">
+            <img style="width:65%" src="imgs/bg301.png">
+        </div>
+        <div class="p3 bott" style="z-index: -2;"><img class="p-fadeInUp" src="imgs/bg302.png"></div>
+    </div>
+</div>
+<div class="section section2 bg4">
+    <div class="wrap">
+        <div class="p1 font-title">
+            <img style="width:74%" src="imgs/bg405.png">
+        </div>
+
+        <div class="bott">
+            <div class="p2 p-swing" style=""><img src="imgs/bg404.png"></div>
+            <img class="p-fadeInUp" src="imgs/bg402.png">
+        </div>
+    </div>
+</div>
+<div class="section bg5">
+    <div class="wrap">
+        <div class="p1 font-title">
+            <img style="width:74%" src="imgs/bg503.png">
+        </div>
+        <div class="bounceInUp w50 marg"><img class="p-zoomIn" src="imgs/head.png"></div>
+        <div class="w45 p-swing">
+            <img src="imgs/btn-upload.png">
+            <!--<img src="imgs/btn-load.png">-->
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+<!--<img src="images/arrow.png" style="width:20px;height:15px;margin:0 auto; bottom:10px; left:0;right: 0;" id="array"-->
+     <!--class="resize">-->
+<!-- Swiper JS -->
+<script src="jquery.min.js"></script>
+<script src="jquery.fullPage.js"></script>
+<!--<script src="amazeui.min.js"></script>-->
+<!-- Initialize Swiper -->
+<script>
+    $(function () {
+        $('#fullPage').fullpage({
+            'navigation': true,
+        });
+    });
+</script>
+</body>
+</html>

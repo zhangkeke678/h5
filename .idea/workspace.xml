@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e388c1-a2e4-40dc-a971-c56a6d37665d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg102.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg201.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg202.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg203.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg301.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg302.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg401.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg402.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg403.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg405.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg501.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg502.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/bg503.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/btn-load.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5生成头像/imgs/btn-upload.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/jq22waypoints-master182220160819/waypoints-master20160819/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/jq22waypoints-master182220160819/waypoints-master20160819/infinite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/jq22waypoints-master182220160819/waypoints-master20160819/inview.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/jq22waypoints-master182220160819/waypoints-master20160819/jquery.waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/jq22waypoints-master182220160819/waypoints-master20160819/jquery插件库.url" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/jq22waypoints-master182220160819/waypoints-master20160819/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/jq22waypoints-master182220160819/waypoints-master20160819/sticky.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/jq22waypoints-master182220160819/waypoints-master20160819/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/jq22waypoints-master182220160819/waypoints-master20160819/www.jq22.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5数字园区/设计图数字园区H5.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5上传头像/imgs/icon-go3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5上传头像/imgs/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5上传头像/imgs/mm.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5上传头像/imgs/mus01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h5年度账单" beforeDir="false" afterPath="$PROJECT_DIR$/h5年度账单" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h5年度账单/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/h5年度账单/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h5年度账单20200116/fullpage版本kk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/h5年度账单20200116/fullpage版本kk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h5生成头像/dg.css" beforeDir="false" afterPath="$PROJECT_DIR$/h5生成头像/dg.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,22 +22,49 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6645924">
+    <splitter split-orientation="horizontal" split-proportion="0.7548544">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/h5生成头像/index.html">
+            <entry file="file://$PROJECT_DIR$/h5上传头像/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="497">
-                  <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+                <state relative-caret-position="525">
+                  <caret line="25" column="128" lean-forward="true" selection-start-line="25" selection-start-column="128" selection-end-line="25" selection-end-column="128" />
                   <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="e#2955#4019#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/icon-go.png">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/icon-go2.png">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/h5年度账单20200116/fullpage版本kk/year.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="269">
+                  <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/h5数字经济产业园/fullpage版本kk/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -66,10 +74,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/h5生成头像/dg.css">
+            <entry file="file://$PROJECT_DIR$/h5上传头像/dg.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="518">
-                  <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+                <state relative-caret-position="186">
+                  <caret line="146" selection-start-line="146" selection-end-line="147" />
                 </state>
               </provider>
             </entry>
@@ -87,7 +95,21 @@
       <find>p3</find>
       <find>p-fadeInUp</find>
       <find>tit-box</find>
+      <find>radio</find>
+      <find>haha</find>
+      <find>btnR</find>
+      <find>audio-player</find>
+      <find>audioPlayer('audio-player');</find>
+      <find>btn</find>
+      <find>haha1</find>
     </findStrings>
+    <replaceStrings>
+      <replace>btn-radio</replace>
+      <replace>btnR</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\project\html\h5项目</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,16 +117,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/h5生成头像/dg.css" />
         <option value="$PROJECT_DIR$/h5生成头像/index.html" />
+        <option value="$PROJECT_DIR$/h5生成头像/dg.css" />
+        <option value="$PROJECT_DIR$/h5年度账单20200116/fullpage版本kk/index.html" />
+        <option value="$PROJECT_DIR$/h5上传头像/dg.css" />
+        <option value="$PROJECT_DIR$/h5上传头像/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="11" />
-    <option name="width" value="1872" />
-    <option name="height" value="1043" />
+    <option name="x" value="11" />
+    <option name="width" value="1853" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -112,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,12 +146,18 @@
             <path>
               <item name="h5项目" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5项目" type="462c0819:PsiDirectoryNode" />
+              <item name="h5上传头像" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5项目" type="462c0819:PsiDirectoryNode" />
               <item name="h5生成头像" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,6 +169,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\html\h5项目\h5上传头像\imgs" />
       <recent name="E:\project\html\h5项目\h5生成头像\imgs" />
     </key>
   </component>
@@ -165,24 +195,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583721838348</updated>
-      <workItem from="1583721840122" duration="8895000" />
+      <workItem from="1583721840122" duration="10311000" />
+      <workItem from="1583811129807" duration="9844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8895000" />
+    <option name="totallyTimeSpent" value="20155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="11" width="1872" height="1043" extended-state="0" />
+    <frame x="11" y="0" width="1853" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09737418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08899945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -190,6 +217,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -199,17 +230,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/h5生成头像/dg.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/h5生成头像/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -217,6 +241,104 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5年度账单/fullpage版本kk/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5数字园区/fullpage版本kk/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5数字经济产业园/fullpage版本kk/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5生成头像/dg.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/mus01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5年度账单20200116/fullpage版本kk/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11259#11387#0" />
+            <element signature="e#11418#12482#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5年度账单20200116/fullpage版本kk/year.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/bg501.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/bg405.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/bg502.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/bg503.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/bg101.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/btn-upload.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/head.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/icon-go.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/imgs/icon-go2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/dg.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="146" selection-start-line="146" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5上传头像/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="128" lean-forward="true" selection-start-line="25" selection-start-column="128" selection-end-line="25" selection-end-column="128" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2955#4019#0" />
           </folding>
         </state>
       </provider>

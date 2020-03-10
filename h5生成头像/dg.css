@@ -98,6 +98,7 @@ p.bottom{    font-size: 16px;
     animation: bounceIn 2s linear;
     -webkit-animation: bounceIn 2s linear;
 }
+
 .w45{width:45%;margin:0 auto}
 .w50{width:50%;margin:0 auto}
 .w70{width:70%;margin:0 auto}

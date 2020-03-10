@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="dg.css">
+    <style type="text/css">
+        *, :after, :before {
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+<div id="btn">
+    <audio id="audio-player" ref="audio" preload="preload" autoplay="autoplay" loop="loop">
+        <source src="./imgs/mm.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+</div>
+<div id="fullPage">
+    <div class="section section1 bg1" style="background:#fff url('imgs/bg101.png') no-repeat bottom;background-size: 100% 100%">
+        <div class="wrap">
+            <!--<div class="p1 w70"><img class="p-slideInLeft" src="imgs/font101.png"></div>-->
+            <div class="font-wrap">
+                <p class="p-slideInLeft1">生活中的勇士</p>
+                <p class="p-slideInLeft2">向来默默无闻</p>
+                <p class="p-slideInLeft3">一个天使，两个天使，三个天使</p>
+                <p class="p-slideInLeft4">千千万万个国之栋梁</p>
+            </div>
+            <div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="imgs/icon-go.png"></div>
+        </div>
+    </div>
+
+<div class="section bg2">
+    <div class="wrap">
+        <!--<div class="p1 font-title">-->
+            <!--<img class="" style="width:65%" src="imgs/bg203.png">-->
+        <!--</div>-->
+        <div class="font-wrap p-slideInLeft">
+            <p>那个年迈有困境</p>
+            <p>却一而再地</p>
+            <p>向社区捐款的拾荒老人</p>
+            <p>那个扔下</p>
+            <p>“爱心包裹”</p>
+            <p>就匆匆离开的雷锋</p>
+        </div>
+        <div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="imgs/icon-go3.png"></div>
+        <div class="p3"><img class="p-slideInRight" src="imgs/bg202.png"></div>
+    </div>
+</div>
+<div class="section bg3">
+    <div class="wrap">
+        <!--<div class="p1 ">-->
+            <!--<img class="p-slideInRight" style="width:55%" src="imgs/bg301.png">-->
+        <!--</div>-->
+        <div class="font-wrap">
+            <p class="p-slideInLeft1">那些数不清的明星</p>
+            <p class="p-slideInLeft2">一次又一次的捐款</p>
+            <p class="p-slideInLeft3">那些数不清的爱心工厂</p>
+            <p class="p-slideInLeft4">一个又一个的辛勤付出</p>
+        </div>
+        <div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="imgs/icon-go3.png"></div>
+        <div class="p3 bott" style="z-index: -2;"><img class="p-slideInLeft" src="imgs/bg302.png"></div>
+    </div>
+</div>
+<div class="section section2 bg4">
+    <div class="wrap">
+        <div class="font-wrap">
+            <p class="p-slideInLeft1">那个山川异域</p>
+            <p class="p-slideInLeft2">风雨同天的日本旗袍少女</p>
+            <p class="p-slideInLeft3">哪些捐物献爱的</p>
+            <p class="p-slideInLeft4">邻国朋友</p>
+        </div>
+        <div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="imgs/icon-go3.png"></div>
+
+        <div class="bott">
+            <div class="p2 p-zoomIn" style=""><img src="imgs/bg404.png"></div>
+            <img class="p-fadeInUp" src="imgs/bg402.png">
+        </div>
+    </div>
+</div>
+<div class="section bg5">
+    <div class="wrap ">
+        <img class="logo p-slideInLeft" src="imgs/logo2.png" >
+        <div class="font-wrap">
+            <p class="p-slideInLeft1">感动人间小善大爱</p>
+            <p class="p-slideInLeft2">感谢你们最好的方式</p>
+            <p class="p-slideInLeft3">就是对世界充满热爱和奋斗的力量</p>
+            <p class="p-slideInLeft4">2020植树节，为自己种下一棵心灵树</p>
+            <p class="p-slideInLeft5">从“头”开始，继续抗疫，继续加油</p>
+        </div>
+        <div class="bounceInUp w50 marg"><img class="p-zoomIn" src="imgs/head.png"></div>
+        <div class="w45 p-swing">
+            <img src="imgs/btn-upload.png" id="btn1">
+            <!--<img src="imgs/btn-load.png">-->
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+<!--<img src="images/arrow.png" style="width:20px;height:15px;margin:0 auto; bottom:10px; left:0;right: 0;" id="array"-->
+     <!--class="resize">-->
+<!-- Swiper JS -->
+<script src="jquery.min.js"></script>
+<script src="jquery.fullPage.js"></script>
+<!--<script src="amazeui.min.js"></script>-->
+<!-- Initialize Swiper -->
+<script>
+    // method 自动播放
+    let isWeixin = () => {
+        let ua = window.navigator.userAgent.toLowerCase()
+        return;
+        /micromessenger/
+              .test(ua)
+    }
+    let audioPlayer = (id) => {
+        let audio = document.getElementById(id)
+        if (isWeixin()) {
+            document.addEventListener(
+                  'WeixinJSBridgeReady', () => {
+                      audio.play()
+                  }, false);
+
+            // 添加 getNetworkType 的判断原因, 请看问题分析2
+            if (typeof window.WeixinJSBridge ==
+                  "object" &&
+                  typeof window.WeixinJSBridge
+                        .invoke ==
+                  "function"
+            ) {
+                window.
+                WeixinJSBridge
+                      .invoke(
+                            'getNetworkType', {}, () => {
+                                audio.play()
+                            })
+            }
+        } else {
+            audio.play();
+            let touchPlay = () => {
+                audio.play();
+                document.removeEventListener(
+                      'touchstart', touchPlay, false)
+            };
+            if (audio.paused) {
+                document.addEventListener(
+                      'touchstart', touchPlay, false)
+            }
+        }
+    }
+    // 使用
+    audioPlayer('audio-player');
+
+    var audio = document.getElementById("audio-player");
+    var btn = document.getElementById("btn");
+    var rotateVal = 0;
+
+    var InterVal; // 定时器
+    btn.onclick = function() { //点击按钮播放停止
+        if (audio.paused) { //判断当前的状态是否为暂停，若是则点击播放，否则暂停
+            audio.play();
+            // rotate ()
+            $("#btn").css("animation-play-state", "running")
+        } else {
+            audio.pause();
+            // clearInterval(InterVal)
+            $("#btn").css("animation-play-state", "paused")
+        }
+    };
+    $(function () {
+        $('#fullPage').fullpage({
+            'navigation': true,
+        });
+        $('#btn1').click(function(){
+            // console.log(123);
+            $('#fullPage').fullpage.moveTo(3);//滑到第n屏
+        });
+    });
+</script>
+</body>
+</html>

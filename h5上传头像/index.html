@@ -24,15 +24,14 @@
 </div>
 <div id="fullPage">
     <div class="section section1 bg1" style="background:#fff url('imgs/bg101.png') no-repeat bottom;background-size: 100% 100%">
-        <div class="wrap">
-            <!--<div class="p1 w70"><img class="p-slideInLeft" src="imgs/font101.png"></div>-->
+        <div class="wrap" style="padding-top:20vh;">
             <div class="font-wrap">
                 <p class="p-slideInLeft1">生活中的勇士</p>
                 <p class="p-slideInLeft2">向来默默无闻</p>
                 <p class="p-slideInLeft3">一个天使，两个天使，三个天使</p>
                 <p class="p-slideInLeft4">千千万万个国之栋梁</p>
             </div>
-            <div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="imgs/icon-go.png"></div>
+            <!--<div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="imgs/icon-go.png"></div>-->
         </div>
     </div>
 
@@ -95,9 +94,12 @@
             <p class="p-slideInLeft5">从“头”开始，继续抗疫，继续加油</p>
         </div>
         <div class="bounceInUp w50 marg"><img class="p-zoomIn" src="imgs/head.png"></div>
-        <div class="w45 p-swing">
-            <img src="imgs/btn-upload.png" id="btn1">
-            <!--<img src="imgs/btn-load.png">-->
+        <!--<div class="w45 p-swing">--><!--保存头像-->
+            <!--<img src="imgs/btn-upload.png" id="btn1">-->
+        <!--</div>-->
+        <div class="font-wrap p-zoomIn"><!--修改头像-->
+            <p>长按头像区域，保存头像</p>
+            <p>更换微信头像，2020继续加油</p>
         </div>
     </div>
 </div>
@@ -176,9 +178,11 @@
         }
     };
     $(function () {
+
         $('#fullPage').fullpage({
             'navigation': true,
         });
+        $('#fullPage').fullpage.moveTo(5);//滑到第n屏
         $('#btn1').click(function(){
             // console.log(123);
             $('#fullPage').fullpage.moveTo(3);//滑到第n屏

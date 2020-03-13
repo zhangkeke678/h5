@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="dg.css">
+    <style type="text/css">
+        *, :after, :before {
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+<div id="btn">
+    <audio id="audio-player" ref="audio" preload="preload" autoplay="autoplay" loop="loop">
+        <source src="./img/mm.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+</div>
+<div id="fullPage">
+    <div class="section section1" style="background:#fff url('img/bg01.png') no-repeat bottom;background-size: 100% 100%">
+        <div class="wrap1">
+            <img class="w50 p-slideInLeft" src="img/logo01.png" >
+        </div>
+        <div class="center">
+            <img class="w70 p-rubberBand" src="img/icon101.png" alt="">
+            <div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="img/icon102.png"></div>
+        </div>
+        <div class="btn-w" id="btn-start">
+            <img class="p-swing" src="img/btn-start.png" alt="">
+        </div>
+    </div>
+
+<div class="section bg2">
+    <div class="wrap">
+        <img class="logo p-slideInLeft" src="img/logo02.png" >
+        <div class="font-wrap p-slideInLeft">
+            <p>那一年，</p>
+            <p>我们卖出了 <span class="yellow">第一杯</span>咖啡</p>
+            <p>一个属于楼友会</p>
+            <p>的<span class="yellow">故事</span>开始了......</p>
+        </div>
+        <div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="img/logo.png"></div>
+        <div class="p3 bott bott2"><img class="p-slideInRight" src="img/bg201.png"></div>
+    </div>
+</div>
+<div class="section bg3">
+    <div class="wrap">
+        <img class="logo p-slideInLeft" src="img/logo02.png" >
+        <div class="font-wrap">
+            <p class="p-slideInLeft1">那一年</p>
+            <p class="p-slideInLeft2">我们背负信念<span class="yellow">走出杭州</span></p>
+            <p class="p-slideInLeft3">走出浙江，走出中国</p>
+            <p class="p-slideInLeft4"><span class="yellow">五湖四海</span>的小伙伴进“楼”</p>
+            <p class="p-slideInLeft4">成为<span class="yellow">知交好“友”</span></p>
+        </div>
+        <div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="img/logo.png"></div>
+        <div class="p3 bott"><img class="p-zoomIn" src="img/bg301.png"></div>
+    </div>
+</div>
+<div class="section section2 bg4">
+    <div class="wrap">
+        <img class="logo p-slideInLeft" src="img/logo02.png" >
+        <div class="font-wrap">
+            <p class="p-slideInLeft1">那一年</p>
+            <p class="p-slideInLeft2">我们看到人才</p>
+            <p class="p-slideInLeft3">更关心人才</p>
+            <p class="p-slideInLeft4">人力资源产业园<span class="yellow">应“才”而生</span></p>
+            <p class="p-slideInLeft4">伴“楼”同行</p>
+        </div>
+        <div class="p1 w35" style="margin-top:20px;"><img class="p-heartBeat" src="img/logo.png"></div>
+        <div class="p3 bott" style="bottom:4px;"><img class="p-slideInRight" src="img/bg401.png"></div>
+    </div>
+</div>
+<div class="section bg5">
+    <div class="wrap ">
+        <img class="logo p-slideInLeft" src="img/logo02.png" >
+        <div class="font-wrap">
+            <p class="p-slideInLeft1">这一年，又一年</p>
+            <p class="p-slideInLeft2 yellow">人才综合体、人资产业园</p>
+            <p class="p-slideInLeft3 yellow">双创孵化、人才学院</p>
+            <p class="p-slideInLeft4">......</p>
+
+            <p class="p-slideInLeft4 marg bold">我们有更多产品、更多期望</p>
+            <p class="p-slideInLeft5 bold">更有了你</p>
+        </div>
+        <div class="bounceInUp w40" style="margin:2vh auto;"><img class="p-zoomIn" src="img/photo.png"></div>
+        <div class="w60 p-swing parent"  id="btn1">
+            <span class="son">下载头像</span>
+            <img src="img/btn.png">
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+<!--<img src="images/arrow.png" style="width:20px;height:15px;margin:0 auto; bottom:10px; left:0;right: 0;" id="array"-->
+     <!--class="resize">-->
+<!-- Swiper JS -->
+<script src="jquery.min.js"></script>
+<script src="jquery.fullPage.js"></script>
+<!--<script src="amazeui.min.js"></script>-->
+<!-- Initialize Swiper -->
+<script>
+    // method 自动播放
+    let isWeixin = () => {
+        let ua = window.navigator.userAgent.toLowerCase()
+        return;
+        /micromessenger/
+              .test(ua)
+    }
+    let audioPlayer = (id) => {
+        let audio = document.getElementById(id)
+        if (isWeixin()) {
+            document.addEventListener(
+                  'WeixinJSBridgeReady', () => {
+                      audio.play()
+                  }, false);
+
+            // 添加 getNetworkType 的判断原因, 请看问题分析2
+            if (typeof window.WeixinJSBridge ==
+                  "object" &&
+                  typeof window.WeixinJSBridge
+                        .invoke ==
+                  "function"
+            ) {
+                window.
+                WeixinJSBridge
+                      .invoke(
+                            'getNetworkType', {}, () => {
+                                audio.play()
+                            })
+            }
+        } else {
+            audio.play();
+            let touchPlay = () => {
+                audio.play();
+                document.removeEventListener(
+                      'touchstart', touchPlay, false)
+            };
+            if (audio.paused) {
+                document.addEventListener(
+                      'touchstart', touchPlay, false)
+            }
+        }
+    }
+    // 使用
+    audioPlayer('audio-player');
+
+    var audio = document.getElementById("audio-player");
+    var btn = document.getElementById("btn");
+    var rotateVal = 0;
+
+    var InterVal; // 定时器
+    btn.onclick = function() { //点击按钮播放停止
+        if (audio.paused) { //判断当前的状态是否为暂停，若是则点击播放，否则暂停
+            audio.play();
+            // rotate ()
+            $("#btn").css("animation-play-state", "running")
+        } else {
+            audio.pause();
+            // clearInterval(InterVal)
+            $("#btn").css("animation-play-state", "paused")
+        }
+    };
+    $(function () {
+
+        $('#fullPage').fullpage({
+            'navigation': true,
+        });
+        // $('#fullPage').fullpage.moveTo(5);//滑到第n屏
+        $('#btn-start').click(function(){
+            $('#fullPage').fullpage.moveTo(2);//滑到第n屏
+        });
+        $('#btn1').click(function(){
+            $('#fullPage').fullpage.moveTo(5);//滑到第n屏
+        });
+    });
+</script>
+</body>
+</html>
